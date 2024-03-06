@@ -1,6 +1,6 @@
 # A Simple JS Quiz Application
 
-- ### HTML structure
+- ## HTML structure
   - Project will be contained in one single app_div within Body tag.
   - Heading of the project inside app_div
   - Nest a Quiz_div within, this will contain question and answer buttons inside
@@ -8,7 +8,7 @@
     - Create div#answer-button -> dynamically create 4 button tags
       for each answer (Psuedo buttons) using JS later (Put 4 buttons in the meantime for styling)
     - Create button#next-btn -> move to the next question.
-- ### CSS
+- ## CSS
   - Wildcard
     - margin and padding == 0
     - font == Poppins
@@ -32,7 +32,7 @@
     - width == 150px
     - margin == 20px auto 0
     - display == none (Will be changed by eventListener)
-- ### JavaScript
+- ## JavaScript
   - Questions (Array of objects)
     - Contains an object of 1 question and 4 possible answers
     - question : String
@@ -42,10 +42,10 @@
     - questionElement -> change Question dynamically.
     - answerButtons -> Make answers, put into buttons.
     - nextButton -> Display "Next" button after selecting first answer.
-  - ## Static variables
+  - ### Static variables
     - Current Question Index == 0
     - Total Score == 0
-  - ## Functions
+  - ### Functions
   - startQuiz()
     -> Start a new quiz session
   - showQuestions()
