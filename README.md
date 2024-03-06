@@ -1,5 +1,5 @@
 # A Simple JS Quiz Application
 
-- # HTML structure
+- ## HTML structure
   - card app div
-- # CSS
+- ## CSS
