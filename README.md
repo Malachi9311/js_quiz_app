@@ -1,1 +1,3 @@
-# A Simple js Quiz Application
+# A Simple JS Quiz Application
+
+- Create div(class=app-card)
