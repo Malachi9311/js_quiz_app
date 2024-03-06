@@ -56,7 +56,7 @@
     -> add eventlistener to select correct answer
   - showScore()
     -> Display final score once quiz is finished.
-  - handleNextButton
+  - handleNextButton()
     -> What happens when next-btn is clicked
   - nextButton.eventlistener()
     -> call handleNextButton()/startQuiz()
