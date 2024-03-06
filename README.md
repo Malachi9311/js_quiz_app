@@ -49,4 +49,14 @@
   - startQuiz()
     -> Start a new quiz session
   - showQuestions()
-    ->
+    -> Move to next question with given answers.
+  - resetState()
+    -> Reset state
+  - selectAnswer()
+    -> add eventlistener to select correct answer
+  - showScore()
+    -> Display final score once quiz is finished.
+  - handleNextButton
+    -> What happens when next-btn is clicked
+  - nextButton.eventlistener()
+    -> call handleNextButton()/startQuiz()
